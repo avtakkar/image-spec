@@ -17,4 +17,8 @@ package v2
 const (
 	// MediaTypeImageIndex specifies the media type for an image index.
 	MediaTypeImageIndex = "application/vnd.oci.image.index.v2+json"
+
+	// MediaTypeNv2SignatureConfig specifies the media type for a signature as defined by notaryprojectv2.
+	// https://github.com/notaryproject/nv2/pull/10
+	MediaTypeNv2SignatureConfig = "application/vnd.cncf.notary.config.v2+jwt"
 )
